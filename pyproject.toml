@@ -1,0 +1,17 @@
+[project]
+name = "ai-inbox-agent"
+version = "0.1.0"
+description = "Autonomous AI Gmail inbox triage and cleanup agent"
+requires-python = ">=3.11"
+dependencies = [
+  "streamlit>=1.35.0",
+  "google-auth>=2.30.0",
+  "google-auth-oauthlib>=1.2.0",
+  "google-api-python-client>=2.130.0",
+  "openai>=1.35.0",
+  "python-dotenv>=1.0.1",
+  "pydantic>=2.7.0",
+]
+
+[tool.setuptools]
+py-modules = []
